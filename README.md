@@ -1,5 +1,13 @@
 # coding-style
 
+## 輔助工具
+- prettier
+
+```
+"prettier": "prettier --write ./app "
+```
+
+-----
 ## 命名規則
 1. 變數：小駝峰，禁縮寫
 2. 函式：小駝峰，禁縮寫
