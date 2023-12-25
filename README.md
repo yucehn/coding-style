@@ -1,5 +1,9 @@
 # coding-style
 
+[standardjs參考](https://standardjs.com/rules-zhtw)
+
+[typescript-coding-style-guide](https://gist.github.com/anichitiandreea/e1d466022d772ea22db56399a7af576b#typescript-coding-style-guide)
+
 ## 輔助工具
 - prettier
 
@@ -22,9 +26,6 @@
   var my_var = 'hello'           // ✗ avoid
   var myVar = 'hello'            // ✓ ok
 ```
-[standardjs參考](https://standardjs.com/rules-zhtw)
-
-[typescript-coding-style-guide](https://gist.github.com/anichitiandreea/e1d466022d772ea22db56399a7af576b#typescript-coding-style-guide)
 
 ---
 ## 語法規則
