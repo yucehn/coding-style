@@ -15,8 +15,45 @@ npm i prettier
 ```
 "prettier": "prettier --write ./app "
 ```
+---
+## 项目命名
+1. 文件命名不得含有空格
+1. 名稱使用小寫字母，不得含大寫字母
+1. 名稱較長時採用半角連接符號(-, _)分隔
 
------
+```
+/project-test
+```
+---
+## 文件命名
+
+大駝峰命名元件（component）和頁面（page），其他檔案通常用小駝峰
+
+## 檔案目錄
+
+```
+app/
+├── components/
+│   ├── MyHeader.tsx
+│   └── MyFooter.tsx
+├── pages/
+│   ├── Home.tsx
+│   ├── About.tsx
+│   └── Widget/
+│       ├── components/
+│       │   ├── Tool.tsx
+│       │   └── Option.tsx
+│       ├── helpers/
+│       │   └── setOptionStorage.ts
+│       ├── Widget.tsx
+│       └── index.ts
+├── hooks/
+│   └── useTheme.ts
+├── utils/
+│   └── getRamdomNumber.ts
+└── constants.ts
+```
+---
 ## 命名規則
 1. 變數/常數：小駝峰
 ```
