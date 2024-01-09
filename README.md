@@ -10,6 +10,7 @@
 npm i prettier
 ```
 - 設定可用： .prettierrc.js & .prettierrc.json
+- vscode可打開auto format
 
 - run
 ```
